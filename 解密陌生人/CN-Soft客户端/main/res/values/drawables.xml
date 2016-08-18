@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ripple_transparent">#00FFFFFF</drawable>
+    <drawable name="ripple_default_pressed">#10000000</drawable>
+	<drawable name="ripple_default_pressed_light">#22FFFFFF</drawable>
+</resources>

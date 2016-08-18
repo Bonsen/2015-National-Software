@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+				android:background="@color/background_material_light">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/tool_bar"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:background="?attr/colorPrimary"
+		app:theme="@style/AppTheme.Toolbar"
+		app:popupTheme="@style/AppTheme.Toolbar.Popup"
+		app:title="Strangers"/>
+
+	<com.neu.strangers.view.MainViewPager
+		android:id="@+id/main_view_pager"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/tool_bar"
+		android:layout_marginTop="?attr/actionBarSize"/>
+	<com.astuetz.PagerSlidingTabStrip
+		android:id="@+id/main_pager_tabs"
+		android:layout_width="match_parent"
+		android:layout_height="?attr/actionBarSize"
+		android:layout_below="@id/tool_bar"
+		android:background="?attr/colorPrimary"
+		android:textColor="#fff"
+		app:pstsIndicatorColor="#fff"
+		app:pstsIndicatorHeight="3dp"
+		app:pstsShouldExpand="true"
+		app:pstsTabPaddingLeftRight="0dp"
+		app:pstsTextColorSelected="#fff"/>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="5dp"
+		android:layout_below="@id/main_pager_tabs"
+		android:background="@drawable/simple_shadow"
+		android:alpha="0.5"/>
+</RelativeLayout>

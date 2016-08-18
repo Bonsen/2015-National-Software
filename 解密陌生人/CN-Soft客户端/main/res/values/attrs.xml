@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="MaterialRippleLayout">
+		<attr name="mrl_rippleColor" format="color" localization="suggested" />
+		<attr name="mrl_rippleDimension" format="dimension" localization="suggested" />
+		<attr name="mrl_rippleOverlay" format="boolean" localization="suggested" />
+		<attr name="mrl_rippleAlpha" format="float" localization="suggested" />
+		<attr name="mrl_rippleDuration" format="integer" localization="suggested" />
+		<attr name="mrl_rippleFadeDuration" format="integer" localization="suggested" />
+		<attr name="mrl_rippleHover" format="boolean" localization="suggested" />
+		<attr name="mrl_rippleBackground" format="color" localization="suggested" />
+		<attr name="mrl_rippleDelayClick" format="boolean" localization="suggested" />
+		<attr name="mrl_ripplePersistent" format="boolean" localization="suggested" />
+		<attr name="mrl_rippleInAdapter" format="boolean" localization="suggested" />
+		<attr name="mrl_rippleRoundedCorners" format="dimension" localization="suggested" />
+	</declare-styleable>
+
+	<attr name="marked" format="boolean" />
+	<attr name="autocheck" format="boolean" />
+	<declare-styleable name="CheckableLinearLayout">
+		<attr name="marked" />
+		<attr name="autocheck" />
+	</declare-styleable>
+
+	<attr name="msToolbarTheme" format="reference" />
+	<attr name="msToolbarThemePopup" format="reference" />
+	<attr name="msColorPrimary" format="reference" />
+	<attr name="msColorPrimaryDark" format="reference" />
+	<attr name="msColorAccent" format="reference" />
+	<attr name="msWindowBg" format="reference" />
+	<attr name="msColorHeader" format="reference" />
+	<attr name="msColorTextTitle" format="reference" />
+	<attr name="msColorTextSubTitle" format="reference" />
+	<attr name="msDivider" format="reference" />
+	<attr name="msItem" format="reference" />
+
+	<attr name="msTextStyle" format="reference" />
+	<attr name="msSubTextStyle" format="reference" />
+	<attr name="msHeaderStyle" format="reference" />
+</resources>

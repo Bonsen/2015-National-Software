@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterAction</servlet-name>
+    <servlet-class>register.RegisterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>login.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchAction</servlet-name>
+    <servlet-class>userinfo.SearchAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MapAction</servlet-name>
+    <servlet-class>map.MapAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowFriends</servlet-name>
+    <servlet-class>friends.ShowFriends</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AlterAction</servlet-name>
+    <servlet-class>userinfo.AlterAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddAction</servlet-name>
+    <servlet-class>friends.AddAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadFile</servlet-name>
+    <servlet-class>upload.UploadFile</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteAction</servlet-name>
+    <servlet-class>friends.DeleteAction</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MessageAction</servlet-name>
+    <servlet-class>message.MessageAction</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>RegisterAction</servlet-name>
+    <url-pattern>/servlet/RegisterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/servlet/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchAction</servlet-name>
+    <url-pattern>/servlet/SearchAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MapAction</servlet-name>
+    <url-pattern>/servlet/MapAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowFriends</servlet-name>
+    <url-pattern>/servlet/ShowFriends</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterAction</servlet-name>
+    <url-pattern>/servlet/AlterAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAction</servlet-name>
+    <url-pattern>/servlet/AddAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>UploadFile</servlet-name>
+  <url-pattern>/servlet/UploadFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAction</servlet-name>
+    <url-pattern>/servlet/DeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageAction</servlet-name>
+    <url-pattern>/servlet/MessageAction</url-pattern>
+  </servlet-mapping>
+</web-app>
